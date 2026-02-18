@@ -10,7 +10,7 @@ app.use(cors()); // Allows your HTML file to communicate with this server
 app.use(express.json()); // Allows the server to understand incoming JSON data
 
 // 1. Connect to MongoDB (Make sure MongoDB is running on your machine!)
-const dbURI = 'mongodb+srv://alokgondin_db_user:n2ui9qDh5fMgBXzN@websaarthi.roholgi.mongodb.net/websaarthi_data?appName=websaarthi'; 
+const dbURI = 'mongodb+srv://vishalk81025_db_user:BmGLQPSRWwdx2wel@localwebsolutions.l9vvzvf.mongodb.net/?appName=LocalWebSolutions'; 
 
 mongoose.connect(dbURI)
     .then(() => console.log('✅ Connected to MongoDB Atlas successfully!'))
